@@ -1,0 +1,65 @@
+/* Write your CSS here */
+
+.bgContainer {
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.commentsSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cmntBox {
+  border: 1px solid #64748b;
+  width: 500px;
+  margin-bottom: 20px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.textAreaBox {
+  border: 1px solid #64748b;
+  width: 500px;
+  margin-bottom: 20px;
+  height: 140px;
+  padding: 20px;
+}
+
+.h-line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.cmntCount {
+  display: flex;
+  width: 110px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cmntCountBg {
+  text-align: center;
+  color: white;
+  background-color: #0284c7;
+  width: 20px;
+  height: 25px;
+}
+
+.cmntContainer {
+  list-style: none;
+}
+
+.addBtn {
+  background-color: #0284c7;
+  border: none;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
